@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Chat Bot -->
+    <!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('3kbfd52bezxw');
+    </script>
+    <!-- End of Async Drift Code -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- makes sure that the website scales properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" type="image/png" href="img/Budgetapplogo.png">
+    <!-- linked my CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <!-- Video that helped me with Hamburger menu: https://www.youtube.com/watch?v=DZg6UfS5zYg&ab_channel=TraversyMedia -->
+        <!-- Hamburger Menu -->
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsandconditions.html">Terms and Conditions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Budget App Logo-->
+        <a href="index.html"><img src="img/Budgetapplogo.png" alt="img" class="logo" /></a>
+        <!-- Budget App Text-->
+        <h1>Budget App</h1>
+        <!-- Sign In/Up Buttons-->
+        <span class="header-btns">
+            <a href="" class="btn1">Sign In</a>
+            <a href="" class="btn2">Sign Up</a>
+        </span>
+    </header>
+    <div class="clear"></div>
+
+    <main>
+        <!-- Install Now -->
+        <section>
+            <div class="container-30">
+                <div class="details">
+                    <br />
+                    <h2>Install Now</h2>
+                    <br />
+                    <p>
+                        The perfect app to keep track of all your expenses. Easy to navigate though and simple to understand yet covers all features.
+                    </p>
+                    <br />
+                    <div class="center">
+                        <a href="http://play.google.com/store"><img src="img/Playstore.png" alt="img" width="200" /></a>
+                        <br />
+                        <a href="https://www.apple.com/lae/ios/app-store"><img src="img/Appstore.png" alt="img" width="210" /></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-70">
+                <img src="img/installbackground.jpg" class="img-full" alt="img" style="height:500px !important" />
+            </div>
+        </section>
+        <div class="clear"></div>
+
+        <!-- Graph -->
+        <section>
+            <div class="container-70">
+                <img src="img/graph.jpg" class="img-full" alt="img" style="height:400px !important" />
+            </div>
+            <div class="container-30">
+                <div class="details">
+                    <br />
+                    <h2>Graph</h2>
+                    <br />
+                    <p>
+                        View all data through graphs. Graphs help organize and analyze information in well-structured formats, making it eaier to interpret data.
+                    </p>
+                    <br />
+                    <div class="center">
+                        <a href="graph.html" class="btn1 large-btn">DETAILS</a>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clear"></div>
+
+        <!-- Receipt -->
+        <section>
+            <div class="container-30">
+                <div class="details">
+                    <br />
+                    <h2>Receipt</h2>
+                    <br />
+                    <p>
+                        Keeping receipts will help you keep record of your transactions and help separate taxable and non-taxavle income and indentify your actual deductions.
+                    </p>
+                    <br />
+                    <div class="center">
+                        <a href="receipt.html" class="btn1 large-btn">DETAILS</a>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="container-70">
+                <img src="img/receipt.png" class="img-full" alt="img" style="height:400px !important" />
+            </div>
+        </section>
+        <div class="clear"></div>
+
+        <!-- Goals -->
+        <section>
+            <div class="container-70">
+                <img src="img/goals.jpg" class="img-full" alt="img" style="height:400px !important" />
+            </div>
+            <div class="container-30">
+                <div class="details">
+                    <br />
+                    <h2>Goals</h2>
+                    <br />
+                    <p>
+                        Set weekly or monthly goals. Setting goals increases motivation by providing objective measurement and feedback to track progress. Goals provide yardsticks of success and failure.
+                    </p>
+                    <br />
+                    <div class="center">
+                        <a href="goals.html" class="btn1 large-btn">DETAILS</a>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div class="clear"></div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Social Media -->
+        <div class="container-40">
+            <div class="details left-footer">
+                <h2>Social Media</h2>
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">YouTube</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="container-40">
+            <div class="details">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Up Button -->
+    <a href="#header"><img src="img/up-arrow.png" class="up-arrow" /></a>
+
+</body>
+</html>

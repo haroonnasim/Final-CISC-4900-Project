@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Chat Bot -->
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+        
+        !function() {
+          var t = window.driftt = window.drift = window.driftt || [];
+          if (!t.init) {
+            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+            t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }, t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }), t.load = function(t) {
+              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            };
+          }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('3kbfd52bezxw');
+        </script>
+        <!-- End of Async Drift Code -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- makes sure that the website scales properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" type="image/png" href="img/Budgetapplogo.png">
+    <!-- linked my CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <!-- Hamburger Menu -->
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsandconditions.html">Terms and Conditions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Budget App Logo-->
+        <a href="index.html"><img src="img/Budgetapplogo.png" alt="img" class="logo" /></a>
+        <!-- Budget App Text-->
+        <h1>Budget App</h1>
+        <!-- Sign In/Up Buttons-->
+        <span class="header-btns">
+            <a href="" class="btn1">Sign In</a>
+            <a href="" class="btn2">Sign Up</a>
+        </span>
+    </header>
+    <div class="clear"></div>
+    
+    <!-- Main (Stuff between Header and Footer) -->
+    <main>
+        <section>
+            <div class="container-70">
+                <img src="img/goals.jpg" class="img-full" alt="img" style="height:400px !important" />
+            </div>
+            <div class="container-30">
+                <div class="details">
+                    <br />
+                    <h2>Goals</h2>
+                    <br />
+                    <p>
+                        Set weekly or monthly goals. Setting goals increases motivation by providing objective measurement and feedback to track progress. Goals provide yardsticks of success and failure. 
+                    </p>
+                    <br />
+ 
+                </div>
+            </div>
+        </section>
+        <div class="clear"></div>
+
+        <!-- Make Goals Section -->
+        <section class="margin-50">
+            <div class="container-50">
+                <div class="details top-100">
+                    <br />
+                    <h2>Make Goals</h2>
+                    <br />
+                    <p>
+                        Create a goal and track your progress through a friendly user interface.
+                    </p>
+                  
+                </div>
+            </div>
+            <div class="container-50 center">
+                <img src="img/set saving goals.png" class="img-full" style="max-width:500px;"  alt="img" />
+            </div>
+        </section>
+        <div class="clear"></div>
+
+        <!--Progress Section -->
+        <section>
+            <div class="container-60">
+                <img src="img/goals-progress.png" class="img-full" alt="img" style="height:300px !important" />
+            </div>
+            <div class="container-40">
+                <div class="details">
+                    <br /><br />
+                    <h2>Progress</h2>
+                    <br />
+                    <p>
+                        Track and analyze your saving goal progress.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <div class="clear"></div>
+
+        <!-- Goal Met Section -->
+        <section class="margin-60">
+            <div class="container-60">
+                <div class="details top-100">
+                    <h2>Goal Met</h2>
+                    <br />
+                    <p>
+                        Get notified and celebrate your goal achievement.
+                    </p>
+                </div>
+            </div>
+            <div class="container-40 center">
+                <img src="img/saving goal met .png" class="img-full" alt="img" style="max-width:300px !important" />
+            </div>
+        </section>
+        <div class="clear"></div>
+        <br /> <br />
+
+        <!-- Install Now -->
+        <section class="dark center">
+            <div class="container-100">
+                <div class="details">
+                    <br />
+                    <h2 class="l-font">INSTALL NOW</h2>
+                </div>
+            </div>
+
+            <!-- App Store -->
+            <div class="container-50">
+                <div class="details">
+                   <a href="https://www.apple.com/lae/ios/app-store"><img src="img/Appstore.png" width="200" alt="img" /></a>
+                    <br />
+                </div>
+            </div>
+
+            <!-- Play Store -->
+            <div class="container-50">
+                <div class="details">
+                    <a href="http://play.google.com/store"><img src="img/Playstore.png" width="200" alt="img" /></a>
+                    <br />
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div class="clear"></div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Social Media -->
+        <div class="container-40">
+            <div class="details left-footer">
+                <h2>Social Media</h2>
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">YouTube</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="container-40">
+            <div class="details">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Up Button -->
+    <a href="#header"><img src="img/up-arrow.png" class="up-arrow" /></a>
+
+</body>
+</html>

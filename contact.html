@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Chat Bot -->
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+        
+        !function() {
+          var t = window.driftt = window.drift = window.driftt || [];
+          if (!t.init) {
+            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+            t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }, t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }), t.load = function(t) {
+              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            };
+          }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('3kbfd52bezxw');
+        </script>
+        <!-- End of Async Drift Code -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- makes sure that the website scales properly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" type="image/png" href="img/Budgetapplogo.png">
+    <!-- linked my CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <!-- Hamburger Menu -->
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsandconditions.html">Terms and Conditions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Budget App Logo-->
+        <a href="index.html"><img src="img/Budgetapplogo.png" alt="img" class="logo" /></a>
+        <!-- Budget App Text-->
+        <h1>Budget App</h1>
+        <!-- Sign In/Up Buttons-->
+        <span class="header-btns">
+            <a href="" class="btn1">Sign In</a>
+            <a href="" class="btn2">Sign Up</a>
+        </span>
+    </header>
+    <div class="clear"></div>
+    
+
+    <!-- Video that helped me with forms: https://www.youtube.com/watch?v=E5MEzC0prd4&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=25&ab_channel=DaniKrossing  -->
+    <main>
+        <section class="contact-us">
+            <div class="contact-us-text">
+                <h1>Contact</h1>
+                <form class="contact-form">
+                    <label>Name</label>
+                    <input type="text" placeholder=" ENTER YOUR FULL NAME" class="custom-input" />
+                    <label>E-Mail</label>
+                    <input type="email" placeholder=" ENTER YOUR E-MAIL" class="custom-input" />
+                    <label>Phone</label>
+                    <input type="text" placeholder=" ENTER YOUR PHONE NUMBER" class="custom-input" />
+                    <label>Message</label>
+                    <textarea rows="7" placeholder=" TYPE YOUR TEXT HERE" class="custom-input-area"></textarea>
+                    <br />
+                    <div class="center">
+                        <input type="submit" value="Send Message" class="btn1 large-btn" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div class="clear"></div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Social Media -->
+        <div class="container-40">
+            <div class="details left-footer">
+                <h2>Social Media</h2>
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">YouTube</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="container-40">
+            <div class="details">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="termsandconditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Up Button -->
+    <a href="#header"><img src="img/up-arrow.png" class="up-arrow" /></a>
+
+</body>
+</html>
